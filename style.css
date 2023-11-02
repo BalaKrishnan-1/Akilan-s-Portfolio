@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,700&family=Abril+Fatface&family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+.navbar-brand{
+    color:black;
+    cursor:default;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:24px;
+}
+.navbar-brand:hover{
+    color: black;
+}
+li a{
+    color:black;
+}
+.navbar-nav li {
+    padding:10px;
+    text-decoration: none;
+    color:black;
+}
+.navbar li{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:24px;
+}
+.nav-item{
+    -webkit-animation: tracking-in-expand 2s ease-out ;
+	  animation: tracking-in-expand 2s ease-out ;
+}
+@keyframes tracking-in-expand{
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand{
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.Home{
+  margin-top:100px;
+}
+ h1{
+  display:flex;
+  justify-content: center;
+  margin:auto;
+  margin-inline-end:auto;
+ font-size:72px;
+ color:black;
+ font-family:'Josefin Sans', sans-serif;
+ }
+ .text-box{
+ display:flex;
+ justify-content: center;
+ margin:auto;
+margin-top:10px;
+font-size:24px;
+ color:black;
+ font-family:'Josefin Sans', sans-serif;
+ line-height:60px;
+ }
+ #home{
+  margin-bottom:-100px;
+   -webkit-animation: scale-in-center 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+           animation: scale-in-center 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+ }
+ @-webkit-keyframes scale-in-center {
+   0% {
+     -webkit-transform: scale(0);
+             transform: scale(0);
+     opacity: 1;
+   }
+   100% {
+     -webkit-transform: scale(1);
+             transform: scale(1);
+     opacity: 1;
+   }
+ }
+ @keyframes scale-in-center {
+   0% {
+     -webkit-transform: scale(0);
+             transform: scale(0);
+     opacity: 1;
+   }
+   100% {
+     -webkit-transform: scale(1);
+             transform: scale(1);
+     opacity: 1;
+   }
+ }
+.Akilan{
+  font-size: 72px;
+  padding:30px;
+  padding-left:50px;
+  color:black;
+  font-family:'Josefin Sans', sans-serif;
+  text-transform:capitalize;
+  -webkit-animation: tracking-in-expand 4s ease-out ;
+  animation: tracking-in-expand 4s ease-out ;
+}
+@keyframes tracking-in-expand{
+0% {
+  letter-spacing: -0.5em;
+  opacity: 0;
+}
+40% {
+  opacity: 0.6;
+}
+100% {
+  opacity: 1;
+}
+}
+@keyframes tracking-in-expand{
+0% {
+  letter-spacing: -0.5em;
+  opacity: 0;
+}
+40% {
+  opacity: 0.6;
+}
+100% {
+  opacity: 1;
+}
+}
+#About{
+ padding-top:200px;
+}
+h3{
+  position: relative;
+  display: inline-block;
+  font-size:72px;
+  font-weight:500;
+  overflow: hidden;
+  background: linear-gradient(to right, Red, midnightblue 50%,black 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 2s ease;
+  text-decoration: none;
+  &:hover {
+    background-position: 0 100%;
+}
+.Skills{
+  display:flex;
+  justify-self: flex-start;
+  margin:auto;
+  padding:5px;
+  font-size:24px;
+  color:black;
+  font-family:'Josefin Sans', sans-serif;
+  text-transform:capitalize;
+}
+.progress-bar {
+    height: 100%;
+    background-color:#f9004d;
+    border-radius: 5px;
+   -webkit-animation: width 1500ms ease-in 1;
+   animation: progress 1500ms ease-in 1;
+  }
+  @keyframes progress{
+    from{
+      width:0;
+    }
+    to{
+      width:100%;
+    }}
+  }
+  i1,i2,i3,i4,i5,i6 {
+    color:white;
+  }
+  i1:hover{
+  color:black;
+  }
+  
+  i3:hover{
+    color:#1877f2;
+  }
+  i4:hover{
+    color:#00980a;
+  }
+  i5,i2{
+    position:absolute;
+    display:inline;
+    overflow: hidden;
+    margin-left:-12px;
+  background: linear-gradient(to right, Red, midnightblue 50%,white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 2s ease;
+    text-decoration: none;
+    &:hover {
+      background-position: 0 100%;}}
+  i6:hover {
+    color:rgba(13, 13, 239, 0.805);
+  }
