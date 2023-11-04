@@ -67,16 +67,25 @@ li a{
  color:black;
  font-family:'Josefin Sans', sans-serif;
  }
- .text-box{
- display:flex;
- justify-content: center;
- margin:auto;
-margin-top:10px;
-font-size:24px;
- color:black;
- font-family:'Josefin Sans', sans-serif;
- line-height:60px;
+ @media screen and (min-width:480px)and(max-width:800px) {
+  .text-box{
+display: flex;
+flex-direction: column;
+flex-wrap:nowrap;
+font-size:0.5em;
+line-height:60px;
+  }
  }
+.text-box{
+  display:inline-flexbox;
+  justify-content:center;
+  margin:auto;
+ margin-top:10px;
+ font-size:24px;
+  color:black;
+  font-family:'Josefin Sans', sans-serif;
+  line-height:60px;
+  }
  #home{
   margin-bottom:-100px;
    -webkit-animation: scale-in-center 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
