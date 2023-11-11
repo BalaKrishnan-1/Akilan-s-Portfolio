@@ -67,7 +67,7 @@ li a{
  color:black;
  font-family:'Josefin Sans', sans-serif;
  }
- @media screen and (min-width:480px)and(max-width:800px) {
+ @media (min-width: 50em) and (max-width: 60em) { 
   .text-box{
 display: flex;
 flex-direction: column;
