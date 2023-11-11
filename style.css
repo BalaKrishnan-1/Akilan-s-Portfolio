@@ -67,15 +67,6 @@ li a{
  color:black;
  font-family:'Josefin Sans', sans-serif;
  }
- @media (min-width: 50em) and (max-width: 60em) { 
-  .text-box{
-display: flex;
-flex-direction: column;
-flex-wrap:nowrap;
-font-size:0.5em;
-line-height:60px;
-  }
- }
 .text-box{
   justify-content:center;
   margin:auto;
